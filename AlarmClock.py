@@ -16,8 +16,8 @@ class AlarmClock:
         if self.alarm_on_or_off == False:
             self.alarm_on_or_off = True
             print(f'Your alarm is on')
-        else:
-            print(f' Your alarm is off ')
+        else:self.alarm_on_or_off = False
+        print(f' Your alarm is off ')
 
 
     def set_alarm(self, time):
